@@ -1,0 +1,31 @@
+.header{
+    background-color: red;
+    .boxes{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo{
+a{
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+}
+        }
+        .nav-menyu{
+            width: 40%;
+            ul{
+                display: flex;
+                justify-content: space-around;
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        font-size: 20px;
+
+                    }
+                }
+            }
+        }
+    }
+}
